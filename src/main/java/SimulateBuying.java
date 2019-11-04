@@ -85,12 +85,10 @@ public class SimulateBuying {
         String resultOfChecking = checkCartAlert.getText();
         System.out.println("\n" + "The cart is : " + resultOfChecking);
     }
-
     @After
     static void browserFinish() {
         driver.quit();
     }
-
     public static void main(String[] args) {
         browserLaunch();
         testing();
