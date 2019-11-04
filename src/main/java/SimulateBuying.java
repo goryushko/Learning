@@ -82,8 +82,8 @@ public class SimulateBuying {
         WebElement trashIcon = driver.findElement(By.xpath("//*[@class='icon-trash']"));
         trashIcon.click();
         driver.navigate().refresh();
-        WebElement checkCartAlert = driver.findElement(By.xpath("//*[@class='ajax_cart_no_product']"));
-        String resultOfChecking = checkCartAlert.getText();
+        WebElement checkCart = driver.findElement(By.xpath("//*[@class='ajax_cart_no_product']"));
+        String resultOfChecking = checkCart.getText();
         System.out.println("\n" + "The cart is : " + resultOfChecking);
     }
     @After
