@@ -13,6 +13,7 @@ public class SimulateBuying {
 
     @Before
     static void browserLaunch() {
+        
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("http://automationpractice.com");
@@ -86,6 +87,7 @@ public class SimulateBuying {
         System.out.println("\n" + "The cart is : " + resultOfChecking);
     }
     @After
+
     static void browserFinish() {
         driver.quit();
     }
