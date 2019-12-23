@@ -10,7 +10,6 @@ class Regression {
     @BeforeMethod
     static void browserStart() {
 //        WebDriver driver = new ChromeDriver(); I commented on this line to avoid the launch of a browser.
-
     }
 
     @DataProvider
