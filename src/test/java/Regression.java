@@ -6,7 +6,6 @@ import org.testng.annotations.Test;
 
 class Regression {
     WebDriver driver;
-
     @BeforeMethod
     static void browserStart() {
 //        WebDriver driver = new ChromeDriver(); I commented on this line to avoid the launch of a browser.
